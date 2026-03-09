@@ -1,1 +1,164 @@
-PCEtLSBIZWFkZXIgQW5pbWF0ZWQgQmFubmVyIC0tPgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iaHR0cHM6Ly9yZWFkbWUtdHlwaW5nLXN2Zy5kZW1vbGFiLm9yZz9mb250PUZpcmElMjBDb2RlJmNvbG9yPTAwRDlGRiZzaXplPTMwJmNlbnRlcj10cnVlJndpZHRoPTUwMCZsaW5lcz1IZXkrSStnbytieSslRjAlOUYlOEQlOUIrUHVybmFqZWFyLis0K0Z1bGwtU3RhY2srRGV2ZWxvcGVyLitBSSslMjYrTUwrRW50aHVzaWFzdC4rQnVpbGRpbmcrdGhpbmdzK3RoYXQrbWF0dGVyLisiIGFsdD0iVHlwaW5nIFNWRyIgLz4KPC9wPgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL1B1cm5hSmVhcjA2Ij4KICAgIDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2dpdGh1Yi9mb2xsb3dlcnMvUHVybmFKZWFyMDY/bGFiZWw9Rm9sbG93JnN0eWxlPXNvY2lhbCIgYWx0PSJHaXRIdWIgRm9sbG93ZXJzIiAvPgogIDwvYT4KICAmbnNwOzsKICA8aW1nIHNyYz0iaHR0cHM6Ly9rb21hcmV2LmdpdGh1Yi5pby9nbG9iYWwtY291bnRlci1hcGkvY291bnRlci9QdXJuYUplYXIwNi9QdXJuYUplYXIwNj9zdHlsZT1mbGF0JmFtcDtjb2xvcj0wZTc1YjYmYW1wO2xhYmVsQ29sb3I9MDAwMDAwIiBhbHQ9IlZpc2l0b3IgQ291bnQiLz4KPC9wPgoKPGhyIC8+Cgo8IS0tIEFib3V0IE1lIC0tPgojIyDwn5KgICZuYnNwOyBBYm91dCBNZQoKPHRhYmxlIGFsaWduPSJjZW50ZXIiPgo8dHI+Cjx0ZCB2YWxpZ249InRvcCIgd2lkdGg9IjUwJSI+CgojIyMgV2hvIEkgQW06CgotIPCfkqkgRnVsbC1TdGFjayBEZXZlbG9wZXIgYnVpbGRpbmcgZW5kLXRvLWVuZCBhcHBsaWNhdGlvbnMKLSDwn90J8J+UtCBBSS9NTCBFbmdpbmVlciB3aXRoIGEgbG92ZSBmb3IgaW50ZWxsaWdlbnQgc3lzdGVtcwotIPCfk7MgaU9TIERldmVsb3BlciBidWlsZGluZyBwb2xpc2hlZCBTd2lmdFVJIGFwcHMKLSDwn4ywIEFuZHJvaWQgRGV2ZWxvcGVyIHdvcmtpbmcgd2l0aCBPcGVuQ1YgKyBDKysgTkRLCi0g8J+SsSBPcGVuIHRvIGNvbGxhYm9yYXRpb25zICYgaW50ZXJlc3RpbmcgYnVpbGRzCgojIyMgRnVuIEZhY3RzOgoKLSDwn4umIEkgaGF2ZSBhICoqcGF0ZW50ZWQgQUkgcHJvamVjdCoqIPCfmIcKLSDwn5SBIE15IHN0YWNrIGdvZXMgZnJvbSBTd2lmdFVJICYgQW5kcm9pZCB0byBMTE1zCi0g8J+SuyBDb2ZmZWUgZmlyc3QsIGRlYnVnZ2luZyBsYXN0IPCfmIIKCjwvdGQ+Cjx0ZCB2YWxpZ249InRvcCIgd2lkdGg9IjUwJSI+Cgo8aW1nIHNyYz0iaHR0cHM6Ly9naXRodWItcmVhZG1lLXN0YXRzLnZlcmNlbC5hcHAvYXBpP3VzZXJuYW1lPVB1cm5hSmVhcjA2JnNob3dfaWNvbnM9dHJ1ZSZ0aGVtZT10b2t5b25pZ2h0JmhpZGVfYm9yZGVyPXRydWUmYmdfY29sb3I9MEQxMTE3JnRpdGxlX2NvbG9yPTAwRDlGRiZpY29uX2NvbG9yPTAwRDlGRiZ0ZXh0X2NvbG9yPUZGRkZGRiIgYWx0PSJHaXRIdWIgU3RhdHMiIHdpZHRoPSIxMDAlIiAvPgoKPGltZyBzcmM9Imh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdGF0cy52ZXJjZWwuYXBwL2FwaS90b3AtbGFuZ3M/dXNlcm5hbWU9UHVybmFKZWFyMDYmbGF5b3V0PWNvbXBhY3QmdGhlbWU9dG9reW9uaWdodCZoaWRlX2JvcmRlcj10cnVlJmJnX2NvbG9yPTBEMTExNyZ0aXRsZV9jb2xvcj0wMEQ5RkYmdGV4dF9jb2xvcj1GRkZGRkYiIGFsdD0iVG9wIExhbmd1YWdlcyIgd2lkdGg9IjEwMCUiIC8+CjwvdGQ+CjwvdHI+CjwvdGFibGU+Cgo8aHIgLz4KCjwhLS0gVGVjaCBTdGFjayAtLT4KIyMg8J+UrCAmbnNwOyBUZWNoIFN0YWNrICYgVG9vbHMKCjxwIGFsaWduPSJjZW50ZXIiPgoKPCEtLSBMYW5ndWFnZXMgLS0+CgoqKkxhbmd1YWdlcyoqCgo8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9QeXRob24tMzc3NkFCP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1weXRob24mbG9nb0NvbG9yPXdoaXRlIiAvPiAKPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvU3dpZnQtRjA1MTM4P3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1zd2lmdCZsb2dvQ29sb3I9d2hpdGUiIC8+IAo8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9Lb3RsaW4tNzk1MEYyP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1rb3RsaW4mbG9nb0NvbG9yPXdoaXRlIiAvPiAKPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvSmF2YS1FRDhCMDA/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPW9wZW5qZGsmbG9nb0NvbG9yPXdoaXRlIiAvPiAKPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQysrLTAwNTk5Qz9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289YysrJmxvZ29Db2xvcj13aGl0ZSIgLz4gCjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0phdmFTY3JpcHQtRjdERjFFP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1qYXZhc2NyaXB0JmxvZ29Db2xvcj1ibGFjayIgLz4gCjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1R5cGVTY3JpcHQtMDA3QUNEP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz10eXBlc2NyaXB0JmxvZ29Db2xvcj13aGl0ZSIgLz4gCjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1NRTCtEYXRhYmFzZS00Nzk0MkU/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPXBvc3RncmVzcWwmbG9nb0NvbG9yPXdoaXRlIiAvPgoKPGJyIC8+CgoqKkZyYW1ld29ya3MgJiBMaWJyYXJpZXMqKgoKPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvUmVhY3QtMjBCMkFBP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1yZWFjdCZsb2dvQ29sb3I9d2hpdGUiIC8+IAo8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9Ob2RlLmpzLTMzOTkzMz9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289bm9kZS5qcyZsb2dvQ29sb3I9d2hpdGUiIC8+IAo8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9GYXN0QVBJLTA1OTk4OT9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289ZmFzdGFwaSZsb2dvQ29sb3I9d2hpdGUiIC8+IAo8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9TeHJlYW1saXQtRkY0QjRCP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1zdHJlYW1saXQmbG9nb0NvbG9yPXdoaXRlIiAvPiAKPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvT3BlbkNWLTVDM0VFNj9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289b3BlbmN2JmxvZ29Db2xvcj13aGl0ZSIgLz4gCjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1RlbnNvckZsb3ctRkY2RjAwP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz10ZW5zb3JmbG93JmxvZ29Db2xvcj13aGl0ZSIgLz4gCjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1B5VG9yY2gtRUU0QzJDP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1weXRvcmNoJmxvZ29Db2xvcj13aGl0ZSIgLz4KCjxici8+CgoqKkNsb3VkICYgVG9vbHMqKgoKPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvRmlyZWJhc2UtRkZDQTI4P3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1maXJlYmFzZSZsb2dvQ29sb3I9YmxhY2siIC8+IAo8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9Qb3N0Z3JlU1FMLTMxNjE5Mj9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289cG9zdGdyZXNxbCZsb2dvQ29sb3I9d2hpdGUiIC8+IAo8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9Eb2NrZXItMjQ5NkVEP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1kb2NrZXImbG9nb0NvbG9yPXdoaXRlIiAvPiAKPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvR2l0LUZGNEMzMT9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289Z2l0JmxvZ29Db2xvcj13aGl0ZSIgLz4gCjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1hDb2RlLTFCNkZBRj9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289eGNvZGUmbG9nb0NvbG9yPXdoaXRlIiAvPgoKPC9wPgoKPGhyIC8+Cgo8IS0tIFBhdGVudGVkIFByb2plY3QgLS0+CiMjIPCfmIcgJm5ic3A7IFBhdGVudGVkIFByb2plY3QgJm5ic3A7IPCfmIcKCjxkaXYgYWxpZ249ImNlbnRlciI+Cgo+ICMjIyDwn5SOIENsYXNzcm9vbSBCZWhhdmlvciBBbmFseXNpcyBTeXN0ZW0KPiAKPiAqKlByb3ByaWV0YXJ5ICB8ICBQYXR0ZW50IFBlbmRpbmcgIOKQjCBJbmRpYSoqCj4gCj4gQW4gYWR2YW5jZWQgQUktcG93ZXJlZCB2aXNpb24gc3lzdGVtIHRoYXQgYW5hbHl6ZXMgcmVhbC10aW1lIHN0dWRlbnQgYmVoYXZpb3IgaW4gY2xhc3Nyb29tcywgZGV0ZWN0aW5nIGF0dGVudGlvbiwgZW5nYWdlbWVudCwgYW5kIGRpc3J1cHRpb25zIHVzaW5nIGNvbXB1dGVyIHZpc2lvbiAmIGRlZXAgbGVhcm5pbmcuCj4gCj4gPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvU3RhdHVzLVBhdGVudCUyMFBlbmRpbmctRkY2QzAwP3N0eWxlPWZvci10aGUtYmFkZ2UiIC8+IDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1R5cGUtUHJvdmlldGFyeS1yZWQ/c3R5bGU9Zm9yLXRoZS1iYWRnZSIgLz4gPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQUkgUG93ZXJlZC1ibHVlP3N0eWxlPWZvci10aGUtYmFkZ2UiIC8+Cj4gCj4g8J+UmSBSZXBvc2l0b3J5IGlzIHByaXZhdGUgZHVlIHRvIHBhdGVudCBwcm9jZWVkaW5ncy4KCjwvZGl2PgoKPGhyIC8+Cgo8IS0tIFByb2plY3RzIFNob3djYXNlIC0tPgojIyDwn5GFICZOQNST3A7IEZlYXR1cmVkIFByb2plY3RzCgo8dGFibGUgYWxpZ249ImNlbnRlciI+Cjx0cj4KPHRkIHdpZHRoPSI1MCUiPgo8aDM+PGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL1B1cm5hSmVhcjA2L0NoYXJ0U2Vuc2UtQWkiPuKcqO+4jyBDaGFydFNlbnNlIEFJPC9hPjwvaDM+CjxwPkFJLXBvd2VyZWQgY2hhcnQgYW5hbHl0aWNzIHRvb2wgdGhhdCByZWFkcyBtYXJrZXRzIGxpa2UgYW4gZXhwZXJ0IHRyYWRlciBkb2VzPC9wPgo8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9QeXRob24tMzc3NkFCP3N0eWxlPWZsYXQtc3F1YXJlJmxvZ289cHl0aG9uJmxvZ29Db2xvcj13aGl0ZSIgLz4gPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQUklMjBQb3dlcmVkLTBEMTExNz9zdHlsZT1mbGF0LXNxdWFyZSIgLz4KPC90ZD4KPHRkIHdpZHRoPSI1MCUiPgo8aDM+PGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL1B1cm5hSmVhcjA2L0VkZ2UtRGV0ZWN0b3ItQXBwIj7wn5OAIEV6Z2UgRGV0ZWN0b3IgQXBwPC9hPjwvaDM+CjxwPlJlYWwtdGltZSBBbmRyb2lkIGVkZ2UgZGV0ZWN0aW9uIHVzaW5nIE9wZW5DViwgT3BlbkdMIEVTIDIuMCAmIEMrKyBOREs8L3A+CjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0FuZHJvaWQtM0REQjg0P3N0eWxlPWZsYXQtc3F1YXJlJmxvZ289YW5kcm9pZCZsb2dvQ29sb3I9d2hpdGUiIC8+IDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0MrKy0wMDU5OUM/c3R5bGU9ZmxhdC1zcXVhcmUmbG9nbz1jJTJCJTJCJmxvZ29Db2xvcj13aGl0ZSIgLz4gPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvT3BlbkNWLTVDM0VFNj9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPW9wZW5jdiZsb2dvQ29sb3I9d2hpdGUiIC8+CjwvdGQ+CjwvdHI+Cjx0cj4KPHRkIHdpZHRoPSI1MCUiPgo8aDM+PGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL1B1cm5hSmVhcjA2L0V4cGVuc2UtaU9TIj7wn5OTIEV4cGVuc2UgaU9TPC9hPjwvaDM+CjxwPkEgcG9saXNoZWQgaU9TIGFwcCBmb3IgdHJhY2tpbmcgZXhwZW5zZXMgJiBidWRnZXRzIC0gU3dpZnRVSSArIENvcmUgRGF0YTwvcD4KPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvU3dpZnRVSS1GMDUxMzg/c3R5bGU9ZmxhdC1zcXVhcmUmbG9nbz1zd2lmdCZsb2dvQ29sb3I9d2hpdGUiIC8+IDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0NvcmUlMjBEYXRhLTFCNkZBRj9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPWFwcGxlJmxvZ29Db2xvcj13aGl0ZSIgLz4KPC90ZD4KPHRkIHdpZHRoPSI1MCUiPgo8aDM+PGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL1B1cm5hSmVhcjA2L1dlYi1iYXNlZC1DQUQtdmlld2VyIj7wn5OgIFdlYi1CYXNlZCBDQUQgVmlld2VyPC9hPjwvaDM+CjxwPjNEIG1vZGVsIHZpc3VhbGl6ZXIgKFNUTCwgT0JKKSBpbiB0aGUgYnJvd3Nlci4gV2lyZWZyYW1lLCBYLVJheSwgbXVsdGktdmlldyBtb2RlczwvcD4KPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvVGhyZWUuanMtMDAwMDAwP3N0eWxlPWZsYXQtc3F1YXJlJmxvZ289dGhyZWUuanMmbG9nb0NvbG9yPXdoaXRlIiAvPiA8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9XZWJHTCt3aGl0ZT9zdHlsZT1mbGF0LXNxdWFyZSIgLz4KPC90ZD4KPC90cj4KPHRyPgo8dGQgd2lkdGg9IjUwJSI+CjxoMz48YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vUHVybmFKZWFyMDYvVG9kby1TdW1tYXJ5LUFzc2lzdGFudCI+8J+RpCBUb2RvIFN1bW1hcnkgQXNzaXN0YW50PC9hPjwvaDM+CjxwPkZ1bGwtc3RhY2sgdGFzayBtYW5hZ2VyIHdpdGggTExNLXBvd2VyZWQgc3VtbWFyaWVzICYgU2xhY2sgaW50ZWdyYXRpb248L3A+CjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1JlYWN0LTIwQjJBQT9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPXJlYWN0JmxvZ29Db2xvcj13aGl0ZSIgLz4gPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTm9kZS5qcy0zMzk5MzM/c3R5bGU9ZmxhdC1zcXVhcmUmbG9nbz1ub2RlLmpzJmxvZ29Db2xvcj13aGl0ZSIgLz4gPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvT3BlbkFJLTQxMkQ5OT9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPW9wZW5haSZsb2dvQ29sb3I9d2hpdGUiIC8+CjwvdGQ+Cjx0ZCB3aWR0aD0iNTAlIj4KPGgzPjxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9QdXJuYUplYXIwNi9Qcm9qZWN0LVJlYWwtRXN0YXRlLVByaWNlLVByZWRpY3Rpb24iPvCfkYogTXVtYmFpIFJlYWwgRXN0YXRlIFByZWRpY3RvcjwvYT48L2gzPgo8cD5NTCBwaXBlbGluZTogc2NyYXBpbmcgJiMxMjU7IGNsZWFuaW5nICYjMTI1OyBFREEgJiMxMjU7IFN0cmVhbWxpdCBkZXBsb3ltZW50IGZvciBNdW1iYWkgcHJvcGVydHkgcHJpY2VzPC9wPgo8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9TY2lraXQgTGVhcm4tRjdBNjFBP3N0eWxlPWZsYXQtc3F1YXJlJmxvZ289c2Npa2l0LWxlYXJuJmxvZ29Db2xvcj13aGl0ZSIgLz4gPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvU3RyZWFtbGl0LUZGNEMwMD9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPXN0cmVhbWxpdCZsb2dvQ29sb3I9d2hpdGUiIC8+CjwvdGQ+CjwvdHI+CjwvdGFibGU+Cgo8aHIgLz4KCjwhLS0gR2l0SHViIFN0cmVhayAtLT4KPHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9Imh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdHJlYWstc3RhdHMuaGVyb2t1YXBwLmNvbS8/dXNlcj1QdXJuYUplYXIwNiZ0aGVtZT10b2t5b25pZ2h0JmhpZGVfYm9yZGVyPXRydWUmYmFja2dyb3VuZD0wRDExMTcmcmluZz0wMEQ5RkYmZmlyZT0wMEQ5RkYmY3Vyck1vbnRoTGFiZWw9MDBENkZGIiBhbHQ9IkdpdEh1YiBTdHJlYWsiIC8+CjwvcD4KCjxociAvPgoKPCEtLSBGb290ZXIgLS0+CjxwIGFsaWduPSJjZW50ZXIiPgogIDxiPkxldOKAmXMgY29ubmVjdCBhbmQgYnVpbGQgc29tZXRoaW5nIGF3ZXNvbWUgdG9nZXRoZXIhIPCfkoo8L2I+CiAgPGJyPgogIDxpPiZxdW90O0ZpcnN0LCBzb2x2ZSB0aGUgcHJvYmxlbS4gVGhlbiwgd3JpdGUgdGhlIGNvZGUuJnF1b3Q7PC9pPgogIDxici8+CiAgPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvT3Blbl90by1Db2xsYWJvcmF0aW9ucy0wMEQ5RkY/c3R5bGU9Zm9yLXRoZS1iYWRnZSIgLz4KPC9wPg==
+<!-- Header Animated Banner -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.org?font=Fira+Code&color=00D9FF&size=30&center=true&width=500&lines=Hey+I+go+by+%F0%9F%8D%9B+Purnajear.+;Full-Stack+Developer.;AI+%26+ML+Enthusiast.;Building+things+that+matter." alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/PurnaJear06">
+    <img src="https://img.shields.io/github/followers/PurnaJear06?label=Follow&style=social" alt="GitHub Followers" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.github.io/ghpvc/?username=PurnaJear06&style=flat&color=0e75b6&labelColor=000000" alt="Visitor Count"/>
+</p>
+
+<hr />
+
+## 💠 &nbsp; About Me
+
+<table align="center">
+<tr>
+<td valign="top" width="50%">
+
+### Who I Am:
+
+- 👩‍💻 Full-Stack Developer building end-to-end applications
+- 🤖 AI/ML Engineer with a love for intelligent systems
+- 📱 iOS Developer building polished SwiftUI apps
+- 🤠 Android Developer working with OpenCV + C++ NDK
+- 💱 Open to collaborations & interesting builds
+
+### Fun Facts:
+
+- 🏆 I have a **patented AI project** 😇
+- 🔔 My stack goes from SwiftUI & Android to LLMs
+- 💻 Coffee first, debugging last 😂
+
+</td>
+<td valign="top" width="50%">
+
+<img src="https://github-readme-stats.vercel.app/api?username=PurnaJear06&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" alt="GitHub Stats" width="100%" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=PurnaJear06&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" alt="Top Languages" width="100%" />
+</td>
+</tr>
+</table>
+
+<hr />
+
+## 🔌 &nbsp; Tech Stack & Tools
+
+<p align="center">
+
+**Languages**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Kotlin-7950F2?style=for-the-badge&logo=kotlin&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> 
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c++&logoColor=white" /> 
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
+<img src="https://img.shields.io/badge/TypeScript-007ACD?style=for-the-badge&logo=typescript&logoColor=white" /> 
+<img src="https://img.shields.io/badge/SQL+Database-47942E?style=for-the-badge&logo=postgresql&logoColor=white" />
+
+<br />
+
+**Frameworks & Libraries**
+
+<img src="https://img.shields.io/badge/React-20B2AA?style=for-the-badge&logo=react&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" /> 
+<img src="https://img.shields.io/badge/FastAPI-059989?style=for-the-badge&logo=fastapi&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /> 
+<img src="https://img.shields.io/badge/OpenCV-5C3EE6?style=for-the-badge&logo=opencv&logoColor=white" /> 
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> 
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+
+<br/>
+
+**Cloud & Tools**
+
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /> 
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Git-FF4C31?style=for-the-badge&logo=git&logoColor=white" /> 
+<img src="https://img.shields.io/badge/XCode-1B6FAF?style=for-the-badge&logo=xcode&logoColor=white" />
+
+</p>
+
+<hr />
+
+## 😇 &nbsp; Patented Project &nbsp; 😇
+
+<div align="center">
+
+> ### 🔆 Classroom Behavior Analysis System
+> 
+> **Proprietary  |  Patent Pending ⚖ India**
+> 
+> An advanced AI-powered vision system that analyzes real-time student behavior in classrooms, detecting attention, engagement, and disruptions using computer vision & deep learning.
+> 
+> ![Status](https://img.shields.io/badge/Status-Patent%20Pending-FF6C00?style=for-the-badge) ![Type](https://img.shields.io/badge/Type-Proprietary-red?style=for-the-badge) ![AI](https://img.shields.io/badge/AI-Powered-blue?style=for-the-badge)
+> 
+> 🔒 Repository is private due to patent proceedings.
+
+</div>
+
+<hr />
+
+## 💅 &nbsp; Featured Projects
+
+<table align="center">
+<tr>
+<td width="50%">
+<h3><a href="https://github.com/PurnaJear06/ChartSense-Ai">⚡ ChartSense AI</a></h3>
+<p>AI-powered chart analytics tool that reads markets like an expert trader does</p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/AI%20Powered-0D1117?style=flat-square" />
+</td>
+<td width="50%">
+<h3><a href="https://github.com/PurnaJear06/Edge-Detector-App">📷 Edge Detector App</a></h3>
+<p>Real-time Android edge detection using OpenCV, OpenGL ES 2.0 & C++ NDK</p>
+<img src="https://img.shields.io/badge/Android-3DDB84?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/OpenCV-5C3EE6?style=flat-square&logo=opencv&logoColor=white" />
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3><a href="https://github.com/PurnaJear06/Expense-iOS">📱 Expense iOS</a></h3>
+<p>A polished iOS app for tracking expenses & budgets - SwiftUI + Core Data</p>
+<img src="https://img.shields.io/badge/SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white" /> <img src="https://img.shields.io/badge/Core%20Data-1B6FAF?style=flat-square&logo=apple&logoColor=white" />
+</td>
+<td width="50%">
+<h3><a href="https://github.com/PurnaJear06/Web-based-CAD-viewer">🔠 Web-Based CAD Viewer</a></h3>
+<p>3D model visualizer (STL, OBJ) in the browser. Wireframe, X-Ray, multi-view modes</p>
+<img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" /> <img src="https://img.shields.io/badge/WebGL-white?style=flat-square" />
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3><a href="https://github.com/PurnaJear06/Todo-Summary-Assistant">📥 Todo Summary Assistant</a></h3>
+<p>Full-stack task manager with LLM-powered summaries & Slack integration</p>
+<img src="https://img.shields.io/badge/React-20B2AA?style=flat-square&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/OpenAI-412D99?style=flat-square&logo=openai&logoColor=white" />
+</td>
+<td width="50%">
+<h3><a href="https://github.com/PurnaJear06/Project-Real-Estate-Price-Prediction">🏢 Mumbai Real Estate Predictor</a></h3>
+<p>ML pipeline: scraping → cleaning → EDA → Streamlit deployment for Mumbai property prices</p>
+<img src="https://img.shields.io/badge/Scikit Learn-F7A61A?style=flat-square&logo=scikit-learn&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4C00?style=flat-square&logo=streamlit&logoColor=white" />
+</td>
+</tr>
+</table>
+
+<hr />
+
+<!-- GitHub Streak -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PurnaJear06&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currMonthLabel=00D6FF" alt="GitHub Streak" />
+</p>
+
+<hr />
+
+<!-- Footer -->
+<p align="center">
+  <b>Let's connect and build something awesome together! 💊</b>
+  <br>
+  <i>&quot;First, solve the problem. Then, write the code.&quot;</i>
+  <br/>
+  <img src="https://img.shields.io/badge/Open_to-Collaborations-00D9FF?style=for-the-badge" />
+</p>
