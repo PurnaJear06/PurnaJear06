@@ -1,13 +1,9 @@
 <div align="center">
 
-# ✦ Hey, I'm Purnajear ✦
-
-### `Full-Stack Developer` · `AI/ML Engineer` · `iOS & Android Builder`
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0969da,60:7c3aed,100:0d1117&height=220&section=header&text=Purnajear&desc=Full-Stack%20%7C%20AI%2FML%20%7C%20iOS%20%7C%20Android%20%7C%20Patent%20Holder%20%F0%9F%8F%86&fontSize=60&descSize=18&fontColor=ffffff&descAlignY=78&animation=fadeIn&fontAlignY=38" width="100%"/>
 
 [![GitHub followers](https://img.shields.io/github/followers/PurnaJear06?logo=github&style=for-the-badge&color=0969da&labelColor=1a1a2e)](https://github.com/PurnaJear06)
-![Profile Views](https://komarev.com/ghpvc/?username=PurnaJear06&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Welcome%20To%20My%20World&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32" width="100%"/>
+![Profile Views](https://komarev.com/ghpvc/?username=PurnaJear06&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)
 
 </div>
 
@@ -200,20 +196,16 @@ ML pipeline: scraping → EDA → model → Streamlit app for Mumbai prices.
 
 ## 📊 GitHub Analytics
 
-<img src="https://github-readme-stats.vercel.app/api?username=PurnaJear06&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" height="180" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PurnaJear06&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" />
+<img src="https://github-readme-stats.vercel.app/api?username=PurnaJear06&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7c3aed&icon_color=0969da&text_color=c9d1d9&ring_color=7c3aed" height="180" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PurnaJear06&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7c3aed&text_color=c9d1d9" height="180" />
 
 <br />
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=PurnaJear06&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="700" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=PurnaJear06&theme=github-dark-blue&hide_border=true&background=0D1117&ring=7c3aed&fire=0969da&currStreakLabel=7c3aed" width="700" />
 
-</div>
+<br/>
 
----
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PurnaJear06&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=PurnaJear06&theme=github-compact&hide_border=true&bg_color=0d1117&color=7c3aed&line=0969da&point=ffffff&area=true&area_color=7c3aed" width="100%" />
 
 </div>
 
@@ -225,9 +217,9 @@ ML pipeline: scraping → EDA → model → Streamlit app for Mumbai prices.
 
 *"First, solve the problem. Then, write the code."*
 
-![Open to Collaborations](https://img.shields.io/badge/🤝_Open_to-Collaborations-58a6ff?style=for-the-badge)
-![Hire Me](https://img.shields.io/badge/💼_Available_for-Freelance-28a745?style=for-the-badge)
+![Open to Collaborations](https://img.shields.io/badge/🤝_Open_to-Collaborations-7c3aed?style=for-the-badge)
+![Hire Me](https://img.shields.io/badge/💼_Available_for-Freelance-0969da?style=for-the-badge)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:7c3aed,60:0969da,100:0d1117&height=120&section=footer" width="100%"/>
 
 </div>
