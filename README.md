@@ -103,7 +103,7 @@ fun_fact: "My stack spans from SwiftUI to LLMs"
 
 > ### 🔬 Classroom Behavior Analysis System
 >
-> ![Patent Pending](https://img.shields.io/badge/⚖️_Patent_Pending-India-FF6C00?style=for-the-badge)
+> ![Patented](https://img.shields.io/badge/⚖️_Patent_Pending-India-FF6C00?style=for-the-badge)
 > ![Proprietary](https://img.shields.io/badge/🔒_Proprietary-All_Rights_Reserved-DC3545?style=for-the-badge)
 > ![AI Powered](https://img.shields.io/badge/🤖_AI-Computer_Vision-0969da?style=for-the-badge)
 >
