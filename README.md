@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0969da,60:7c3aed,100:0d1117&height=220&section=header&text=Purna Jear&desc=Full-Stack%20%7C%20AI%2FML%20%7C%20iOS%20%7C%20Android%20%7C%20Patent%20Holder%20%F0%9F%8F%86&fontSize=60&descSize=18&fontColor=ffffff&descAlignY=78&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0969da,60:7c3aed,100:0d1117&height=220&section=header&text=Purnajear&desc=Full-Stack%20%7C%20AI%2FML%20%7C%20iOS%20%7C%20Android%20%7C%20Patent%20Holder%20%F0%9F%8F%86&fontSize=60&descSize=18&fontColor=ffffff&descAlignY=78&animation=fadeIn&fontAlignY=38" width="100%"/>
 
 [![GitHub followers](https://img.shields.io/github/followers/PurnaJear06?logo=github&style=for-the-badge&color=0969da&labelColor=1a1a2e)](https://github.com/PurnaJear06)
 ![Profile Views](https://komarev.com/ghpvc/?username=PurnaJear06&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)
