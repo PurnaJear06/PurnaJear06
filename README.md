@@ -16,8 +16,7 @@
 ### 🧠 About Me
 
 ```yaml
-name: Purnajear
-role: Full-Stack Developer & AI/ML Engineer
+Name: Purnajear
 location: India 🇮🇳
 education: Computer Science
 
