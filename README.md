@@ -75,7 +75,7 @@ My rule for every AI system I ship: **the model interprets, deterministic code c
   <img alt="Stack. Applied AI: LLM integration, RAG, agent workflows, MCP, LangGraph, LangChain, prompt design. Languages: Python, TypeScript, SQL, JavaScript. Backend: Node.js, Deno edge functions, PostgreSQL, Supabase, REST APIs, Docker, CI/CD. Cloud and ops: AWS, Azure, ServiceNow, New Relic, PagerDuty, SolarWinds. ML and CV: Pandas, NumPy, scikit-learn, YOLOv8, ByteTrack, OpenCV, OR-Tools CP-SAT. Apps: Flutter, Apple HealthKit, Streamlit, React." src="assets/stack-light.svg" width="100%">
 </picture>
 
-<br><br>
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-telemetry-dark.svg">

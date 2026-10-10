@@ -218,17 +218,17 @@ def hero(t):
     def prompt_cmd(y, cmd, begin):
         i = next(ids)
         pr = "~ $"
-        pw = width(pr + " ", 16)
+        pw = width(pr + " ", 17)
         n = len(cmd)
-        cw = 16 * BODY_ADV
+        cw = 17 * BODY_ADV
         d = n / cps
         vals = ";".join(f"{k*cw:.1f}" for k in range(n + 1))
         keys = ";".join(f"{k/n:.4f}" for k in range(n + 1))
-        out = [f'<g opacity="0">{fade_in(begin, .15, 0)}{text(x0, y, pr, 16, t["mint"])}</g>']
-        out.append(f'<clipPath id="tc{i}"><rect x="{x0+pw}" y="{y-16}" width="0" height="24">'
+        out = [f'<g opacity="0">{fade_in(begin, .15, 0)}{text(x0, y, pr, 17, t["mint"])}</g>']
+        out.append(f'<clipPath id="tc{i}"><rect x="{x0+pw}" y="{y-17}" width="0" height="25">'
                    f'<animate attributeName="width" values="{vals}" keyTimes="{keys}" calcMode="discrete" begin="{begin+.15:.2f}s" dur="{d:.2f}s" fill="freeze"/></rect></clipPath>')
-        out.append(f'<g clip-path="url(#tc{i})">{text(x0+pw, y, cmd, 16, t["text"])}</g>')
-        out.append(f'<rect x="{x0+pw}" y="{y-14}" width="9" height="18" fill="{t["mint"]}" opacity="0">'
+        out.append(f'<g clip-path="url(#tc{i})">{text(x0+pw, y, cmd, 17, t["text"])}</g>')
+        out.append(f'<rect x="{x0+pw}" y="{y-14}" width="10" height="19" fill="{t["mint"]}" opacity="0">'
                    f'<set attributeName="opacity" to="1" begin="{begin+.15:.2f}s"/>'
                    f'<animate attributeName="x" values="{";".join(f"{x0+pw+k*cw:.1f}" for k in range(n+1))}" keyTimes="{keys}" calcMode="discrete" begin="{begin+.15:.2f}s" dur="{d:.2f}s" fill="freeze"/>'
                    f'<set attributeName="opacity" to="0" begin="{begin+.15+d+.25:.2f}s"/></rect>')
@@ -240,8 +240,8 @@ def hero(t):
     p.append(f'<g opacity="0">{fade_in(clock)}{text(x0, y, "Purna Jear Swami", 38, t["text"], display=True)}</g>')
     y += 34
     p.append(f'<g opacity="0">{fade_in(clock+.15)}'
-             + text(x0, y, "Applied AI Engineer", 16, t["mint"])
-             + text(x0 + width("Applied AI Engineer ", 16), y, "· Genpact · Hyderabad, IN", 16, t["muted"])
+             + text(x0, y, "Applied AI Engineer", 17, t["mint"])
+             + text(x0 + width("Applied AI Engineer ", 17), y, "· Genpact · Hyderabad, IN", 17, t["muted"])
              + "</g>")
     clock += .7
     y += 48
@@ -251,8 +251,8 @@ def hero(t):
     words = [("models interpret.", t["text"]), ("code calculates.", t["text"]), ("humans approve.", t["amber"])]
     xx = x0
     for k, (wd, col) in enumerate(words):
-        p.append(f'<g opacity="0">{fade_in(clock + k*.35, rise=4)}{text(xx, y, wd, 16, col)}</g>')
-        xx += width(wd + " ", 16)
+        p.append(f'<g opacity="0">{fade_in(clock + k*.35, rise=4)}{text(xx, y, wd, 17, col)}</g>')
+        xx += width(wd + " ", 17)
     clock += 1.4
     y += 48
     s, clock = prompt_cmd(y, "relay --status", clock)
@@ -262,18 +262,18 @@ def hero(t):
     for k, src in enumerate(["telemetry", "tickets", "slack", "history"]):
         b = clock + k * .22
         p.append(f'<g opacity="0">{fade_in(b, .2, 0)}'
-                 + text(xx, y, "[", 16, t["dim"]) + text(xx + width("[", 16), y, "ok", 16, t["mint"])
-                 + text(xx + width("[ok", 16), y, "]", 16, t["dim"])
-                 + text(xx + width("[ok] ", 16), y, src, 16, t["muted"]) + "</g>")
-        xx += width(f"[ok] {src}  ", 16)
+                 + text(xx, y, "[", 17, t["dim"]) + text(xx + width("[", 17), y, "ok", 17, t["mint"])
+                 + text(xx + width("[ok", 17), y, "]", 17, t["dim"])
+                 + text(xx + width("[ok] ", 17), y, src, 17, t["muted"]) + "</g>")
+        xx += width(f"[ok] {src}  ", 17)
     clock += 4 * .22 + .2
     y += lh
     p.append(f'<g opacity="0">{fade_in(clock, .3, 0)}'
-             + text(x0, y, "→ context ready · handover drafted for next shift", 16, t["text"]) + "</g>")
+             + text(x0, y, "→ context ready · handover drafted for next shift", 17, t["text"]) + "</g>")
     clock += .6
     y += 48
-    p.append(f'<g opacity="0">{fade_in(clock, .15, 0)}{text(x0, y, "~ $", 16, t["mint"])}'
-             f'<rect x="{x0 + width("~ $ ", 16):.1f}" y="{y-14}" width="9" height="18" fill="{t["mint"]}">'
+    p.append(f'<g opacity="0">{fade_in(clock, .15, 0)}{text(x0, y, "~ $", 17, t["mint"])}'
+             f'<rect x="{x0 + width("~ $ ", 17):.1f}" y="{y-14}" width="10" height="19" fill="{t["mint"]}">'
              '<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.05s" repeatCount="indefinite"/></rect></g>')
 
     # tmux-style status bar
@@ -299,17 +299,17 @@ def hero(t):
 # ------------------------------------------------------- section header ----
 
 def section(t, num, label, note):
-    W, H = 1200, 64
+    W, H = 1200, 72
     p = []
-    p.append(text(0, 40, num, 15, t["amber"]))
-    p.append(text(width(num + "  ", 15), 40, "/", 15, t["dim"]))
-    lx = width(num + "  /  ", 15)
-    p.append(text(lx, 41, label, 20, t["text"], display=True))
-    end = lx + width(label, 20, True) + 22
-    nw = width(note, 13)
-    p.append(f'<line x1="{end:.1f}" y1="35" x2="{W-nw-36:.1f}" y2="35" stroke="{t["line2"]}" stroke-dasharray="2 6"/>')
-    p.append(text(W-24-nw, 39.5, note, 13, t["muted"]))
-    p.append(pulse_dot(W-8, 35, t["mint"], r=3, dur=2.2))
+    p.append(text(0, 45, num, 18, t["amber"]))
+    p.append(text(width(num + "  ", 18), 45, "/", 18, t["dim"]))
+    lx = width(num + "  /  ", 18)
+    p.append(text(lx, 46, label, 25, t["text"], display=True))
+    end = lx + width(label, 25, True) + 24
+    nw = width(note, 16)
+    p.append(f'<line x1="{end:.1f}" y1="39" x2="{W-nw-40:.1f}" y2="39" stroke="{t["line2"]}" stroke-dasharray="2 6"/>')
+    p.append(text(W-26-nw, 44.5, note, 16, t["muted"]))
+    p.append(pulse_dot(W-9, 39, t["mint"], r=3.5, dur=2.2))
     return svg(W, H, "".join(p), f"{num} {label}: {note}")
 
 
@@ -411,7 +411,7 @@ def band_classroom(t):
 CARDS = [
     dict(key="relay", band=band_relay, status="IN BUILD · GENPACT", sc="amber",
          title="Relay", tag="24×7 AI incident-resolution agent",
-         bullets=["correlates telemetry, ServiceNow, Slack + bridge calls",
+         bullets=["joins telemetry, ServiceNow, Slack + bridge calls",
                   "RAG over past incidents & architecture knowledge",
                   "answers what changed, when, and who handled it"],
          stack="LLM agents · RAG · ServiceNow · New Relic · PagerDuty"),
@@ -419,11 +419,11 @@ CARDS = [
          title="Tracend", tag="Evidence-driven AI personal trainer",
          bullets=["Apple HealthKit + 9 Deno edge functions",
                   "5-layer structured memory across coaching sessions",
-                  "no plan or meal changes without policy checks + approval"],
+                  "plans change only via policy checks + user approval"],
          stack="Flutter · Supabase · Deno · Gemini · PostgreSQL"),
     dict(key="hireind", band=band_hireind, status="CLAUDE CODE SKILL", sc="violet",
          title="Hireind", tag="Job-search automation for Indian tech",
-         bullets=["scans 30+ Indian portals, scores roles on 5 dimensions",
+         bullets=["scans 30+ portals, scores roles on 5 dimensions",
                   "reframes service-company resumes for product ATS",
                   "INR salary benchmarks + negotiation anchors"],
          stack="Claude Code · Playwright · Node.js"),
@@ -431,12 +431,12 @@ CARDS = [
          title="GridWatch", tag="Infrastructure anomaly detection",
          bullets=["bulk-ingests up to 1,000 sensor readings per request",
                   "acks ≤200 ms; async threshold + rate-of-change rules",
-                  "alert lifecycles + live, zone-isolated operator views"],
+                  "alert lifecycles + live zone-isolated dashboards"],
          stack="TypeScript · Node.js · PostgreSQL · Redis · React"),
     dict(key="roster", band=band_roster, status="SHIPPED · IN USE", sc="mint",
          title="EOC Roster Optimizer", tag="Constraint-solved rosters for a 24×7 team",
          bullets=["18 people × 3 shifts, solved with OR-Tools CP-SAT",
-                  "fair nights/weekends, 2 consecutive offs, ≤6-day streaks",
+                  "fair nights, 2 consecutive offs, ≤6-day streaks",
                   "saves ~4–5 hours of manual scheduling a month"],
          stack="Python · OR-Tools · Excel"),
     dict(key="classroom", band=band_classroom, status="PATENT APP. 202541062540", sc="amber",
@@ -449,7 +449,7 @@ CARDS = [
 
 
 def card(t, c, idx):
-    W, H = 600, 330
+    W, H = 600, 344
     p = [f'<defs><clipPath id="cc"><rect x="1" y="1" width="{W-2}" height="{H-2}" rx="12"/></clipPath>'
          f'{dot_grid("cgd", t["grid"], 14, .9)}'
          '<filter id="cg" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3"/></filter></defs>']
@@ -465,13 +465,13 @@ def card(t, c, idx):
     p.append(text(40, 27, c["status"], 11, sc, ls=1.2))
     p.append(text(W-20, 28, f"{idx:02d}", 12, t["dim"], anchor="end"))
     p.append("</g>")
-    p.append(text(28, 146, c["title"], 24, t["text"], display=True))
-    p.append(text(28, 172, c["tag"], 14.5, t["muted"]))
+    p.append(text(28, 148, c["title"], 26, t["text"], display=True))
+    p.append(text(28, 177, c["tag"], 15.5, t["muted"]))
     for k, b in enumerate(c["bullets"]):
-        y = 210 + k * 26
-        p.append(text(28, y, "→", 14.5, sc) + text(50, y, b, 14.5, t["text"]))
-    p.append(f'<line x1="28" y1="285" x2="{W-28}" y2="285" stroke="{t["line"]}" stroke-dasharray="2 5"/>')
-    p.append(text(28, 310, c["stack"], 12.5, t["muted"]))
+        y = 218 + k * 28
+        p.append(text(28, y, "→", 16, sc) + text(52, y, b, 16, t["text"]))
+    p.append(f'<line x1="28" y1="296" x2="{W-28}" y2="296" stroke="{t["line"]}" stroke-dasharray="2 5"/>')
+    p.append(text(28, 323, c["stack"], 13.5, t["muted"]))
     return svg(W, H, "".join(p), f'{c["title"]}: {c["tag"]}. ' + "; ".join(c["bullets"]) + f'. Stack: {c["stack"]}.')
 
 
@@ -491,19 +491,19 @@ def stack(t):
     W = 1200
     rows, y = [], 26
     for label, hot, chips in STACK:
-        rows.append(text(0, y + 19, label.upper(), 12, t["amber"] if hot else t["muted"], ls=1.6))
+        rows.append(text(0, y + 23, label.upper(), 14, t["amber"] if hot else t["muted"], ls=1.6))
         x = 190
         for ch in chips:
-            w = width(ch, 14.5) + 28
+            w = width(ch, 17) + 30
             if x + w > W:
-                x, y = 190, y + 44
+                x, y = 190, y + 48
             stroke = t["mint"] if hot else t["line2"]
             fill = t["text"] if hot else t["text"]
-            rows.append(f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="30" rx="15" fill="{t["panel"]}" stroke="{stroke}"/>')
-            rows.append(text(x + 14, y + 20, ch, 14.5, fill))
+            rows.append(f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="36" rx="18" fill="{t["panel"]}" stroke="{stroke}"/>')
+            rows.append(text(x + 15, y + 24, ch, 17, fill))
             x += w + 10
-        rows.append(f'<line x1="0" y1="{y+43}" x2="{W}" y2="{y+43}" stroke="{t["line"]}" stroke-dasharray="2 6"/>')
-        y += 56
+        rows.append(f'<line x1="0" y1="{y+49}" x2="{W}" y2="{y+49}" stroke="{t["line"]}" stroke-dasharray="2 6"/>')
+        y += 62
     H = y - 6
     return svg(W, H, "".join(rows), "Stack. " + ". ".join(f"{l}: {', '.join(c)}" for l, _, c in STACK))
 
@@ -514,10 +514,10 @@ def footer(t):
     W, H = 1200, 96
     p = []
     begin = 0.4
-    p.append(text(0, 34, "~ $", 15, t["mint"]) + text(width("~ $ ", 15), 34, "exit", 15, t["text"]))
+    p.append(text(0, 34, "~ $", 17, t["mint"]) + text(width("~ $ ", 17), 34, "exit", 17, t["text"]))
     msg = "handover saved. thanks for reading — see you next shift."
-    p.append(f'<g opacity="0">{fade_in(begin, .5, 4)}{text(0, 66, msg, 15, t["muted"])}</g>')
-    p.append(f'<rect x="{width(msg + " ", 15):.1f}" y="52" width="9" height="18" fill="{t["mint"]}" opacity="0">'
+    p.append(f'<g opacity="0">{fade_in(begin, .5, 4)}{text(0, 68, msg, 17, t["muted"])}</g>')
+    p.append(f'<rect x="{width(msg + " ", 17):.1f}" y="53" width="10" height="20" fill="{t["mint"]}" opacity="0">'
              f'<set attributeName="opacity" to="1" begin="{begin+.5}s"/>'
              f'<animate attributeName="fill-opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.05s" repeatCount="indefinite"/></rect>')
     return svg(W, H, "".join(p), "exit — handover saved. Thanks for reading, see you next shift.")
