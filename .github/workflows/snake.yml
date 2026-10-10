@@ -9,19 +9,20 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     permissions:
       contents: write
-    
+
     steps:
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: PurnaJear06
+          # Palette matches the profile SVGs: mint dots, amber snake.
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      
+            dist/github-snake.svg?color_snake=#b25e00&color_dots=#eef1f4,#c6f0dc,#8ddfb8,#3fbf87,#0b8457
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ffb547&color_dots=#161c24,#0f3d2e,#16694b,#24a374,#3ddc97
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:

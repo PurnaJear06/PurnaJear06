@@ -1,0 +1,30 @@
+name: Update Activity Log
+
+on:
+  schedule:
+    - cron: "30 0 * * *"  # Daily, 06:00 IST
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rewrite activity block
+        run: python3 src/activity.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: refresh activity log"
+          git push
